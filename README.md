@@ -6,7 +6,7 @@
 ---
 
 ## Overview
-
+```
 For the strucutre of the porject you will create the directories data, features, and output as seen below.
 cbir-project/
 │
@@ -31,7 +31,7 @@ cbir-project/
 │
 ├── README.md
 └── requirements.txt
-
+```
 This project implements a full **Content-Based Image Retrieval (CBIR)** system using:
 
 ### **Deep Feature Extractors**
