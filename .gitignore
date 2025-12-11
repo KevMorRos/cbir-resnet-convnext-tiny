@@ -1,0 +1,24 @@
+# Ignore dataset
+data/256_ObjectCategories/
+data/external_queries/
+data/*
+
+# Ignore features (optional, but recommended for large files)
+features/*.npy
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+env/
+venv/
+.idea/
+.vscode/
+
+# Streamlit cache
+.streamlit/
+
+# macOS files
+.DS_Store
+
