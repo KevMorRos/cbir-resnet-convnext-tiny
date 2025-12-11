@@ -4,10 +4,10 @@ data/external_queries/
 data/*
 
 # Ignore output
-#output/*
+output/*
 
 # Ignore features (optional, but recommended for large files)
-#features/*.npy
+features/*.npy
 
 # Python cache
 __pycache__/
