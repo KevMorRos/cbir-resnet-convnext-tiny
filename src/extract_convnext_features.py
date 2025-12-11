@@ -19,13 +19,13 @@ def extract_features(dataset_path, output_dir="features/"):
     ensure_dir(output_dir)
 
     # Load all image paths + labels
-    print("📂 Scanning dataset...")
+    print(" Scanning dataset...")
     image_paths, labels = list_images(dataset_path)
     num_images = len(image_paths)
     print(f"Found {num_images} images.")
 
     # Load pretrained ConvNeXt-Tiny
-    print("📦 Loading ConvNeXt-Tiny (ImageNet pretrained)...")
+    print(" Loading ConvNeXt-Tiny (ImageNet pretrained)...")
     weights = ConvNeXt_Tiny_Weights.DEFAULT
     model = convnext_tiny(weights=weights)
 
