@@ -1,7 +1,6 @@
 # Ignore dataset
 data/256_ObjectCategories/
-data/*
-#data/external_queries/
+data/external_queries/
 data/*
 
 # Ignore output
