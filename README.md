@@ -7,6 +7,31 @@
 
 ## Overview
 
+For the strucutre of the porject you will create the directories data, features, and output as seen below.
+cbir-project/
+│
+├── data/  <--- Create Directory 
+│   ├── 256_ObjectCategories/  <--- Created After Upload Caltech-256 Into Data Directory
+│   ├── external_queries/      <--- Create Directory       
+│
+├── features/ <--- Create Directory 
+│   
+├── output/ <--- Create Directory 
+│
+├── src/
+│   ├── batch_search.py
+│   ├── extract_classical_features.py
+│   ├── evaluate_precision.py
+│   ├── extract_color_lbp_features.py
+│   ├── extract_convnext_features.py
+│   ├── extract_resnet_features.py
+│   ├── search_similar.py
+│   ├── utils.py
+│   └── visualize_results.py
+│
+├── README.md
+└── requirements.txt
+
 This project implements a full **Content-Based Image Retrieval (CBIR)** system using:
 
 ### **Deep Feature Extractors**
